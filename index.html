@@ -1,358 +1,529 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Bảo Long - Web Developer</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Bảo Long - Web Developer</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/developer.jpg" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/developer.jpg" rel="icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: iPortfolio
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
   * Updated: Mar 17 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/baolong.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Bảo Long</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="assets/img/baolong.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Bảo Long</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
         </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bx bx-home"></i> <span>Trang chủ</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>Thông tin</span></a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="nav-link scrollto"
+                ><i class="bx bx-server"></i> <span>Kỹ năng</span></a
+              >
+            </li>
+            <li>
+              <a href="#bangdiem" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Bảng điểm</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i> <span>Dự án</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bx bx-envelope"></i> <span>Liên hệ</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
       </div>
+    </header>
+    <!-- End Header -->
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Trang chủ</span></a>
-          </li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Thông tin</span></a></li>
-          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Kỹ năng</span></a></li>
-          <li><a href="#bangdiem" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Bảng điểm</span></a>
-          </li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Dự án</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Liên hệ</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <!-- <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <!-- ======= Hero Section ======= -->
+    <!-- <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Alex Smith</h1>
       <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
     </div>
   </section>End Hero -->
 
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Thông tin</h2>
-          <p>Một sinh viên mới ra trường với niềm đam mê lập trình và nhiều hoài bão với mong muốn được trở thành một
-            lập trình viên Front-end trình độ cao.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/baolong.jpg" class="img-fluid" alt="">
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>Thông tin</h2>
+            <p>
+              Một sinh viên mới ra trường với niềm đam mê lập trình và nhiều
+              hoài bão với mong muốn được trở thành một lập trình viên Front-end
+              trình độ cao.
+            </p>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Lập trình web - Web Developer.</h3>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Họ tên:</strong> <span>
-                      Huỳnh Ngọc Bảo Long
-                    </span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Ngày sinh:</strong> <span>04-11-2003</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a
-                        href="http://huynhngocbaolong.website/">huynhngocbaolong.website</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>SĐT:</strong> <span><a
-                        href="tel:0777663476">0777663476</a></span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Tuổi:</strong> <span>20</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Bằng cấp:</strong> <span>Giỏi</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a
-                        href="mailto:hnbaolong.4work@gmail.com">hnbaolong.4work@gmail.com</a></span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Nơi sống:</strong> <span>Q.Bình Thạnh, TP.Hồ Chí
-                      Minh</span></li>
-                </ul>
-              </div>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/baolong.jpg" class="img-fluid" alt="" />
             </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="skills" class="skills section-bg">
-      <div class="container ">
-
-        <div class="section-title">
-          <h2>Kỹ năng</h2>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-12 d-flex flex-wrap justify-content-between mb-2" data-aos="fade-up">
-
-            <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                alt="react" width="120" height="120" />
-            </a>
-
-            <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                alt="nodejs" width="120" height="120" />
-            </a>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                alt="javascript" width="120" height="120" />
-            </a>
-            <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="120"
-                height="120" />
-            </a>
-            <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-                alt="bootstrap" width="120" height="120" />
-            </a>
-            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                alt="html5" width="120" height="120" />
-            </a>
-            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                alt="css3" width="120" height="120" />
-            </a>
-            <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-                alt="mysql" width="120" height="120" />
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <section id="bangdiem" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Bảng điểm</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-left">
-            <img src="./assets/img/bangdiem.png" alt="" width="100%">
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Dự án</h2>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All (3)</li>
-              <li data-filter=".filter-web">Web (1)</li>
-              <li data-filter=".filter-app">App (2)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/projects/dghouse.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/projects/dghouse.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Pet service store - DG HOUSE"><i class="bx bx-plus"></i></a>
-                <a href="detail-dghouse.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <h4>DG HOUSE</h4>
-          </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/projects/theband.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/projects/theband.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="The band"><i class="bx bx-plus"></i></a>
-                <a href="detail-the-band.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <h4>The band</h4>
-          </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/projects/thubongstore.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/projects/thubongstore.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Gấu bông online"><i class="bx bx-plus"></i></a>
-                <a href="detail-gaubongonline.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <h4>Gấu bông online</h4>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Liên hệ</h2>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Nơi sống:</h4>
-                <p>290 Nơ Trang Long, Q.Bình Thạnh, TP.Hồ Chí Minh</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p><a href="mailto:hnbaolong.4work@gmail.com">hnbaolong.4work@gmail.com</a></p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>SĐT:</h4>
-                <p><a href="tel:0777663476">0777663476</a></p>
-              </div>
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1959.4769558099713!2d106.69934258027169!3d10.8148390575184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716139001675!5m2!1sen!2sus"
-                width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="#" role="form" class="php-email-form">
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>Lập trình web - Web Developer.</h3>
               <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Tên của bạn</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Họ tên:</strong>
+                      <span> Huỳnh Ngọc Bảo Long </span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Ngày sinh:</strong> <span>04-11-2003</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong>
+                      <span
+                        ><a href="http://huynhngocbaolong.website/"
+                          >huynhngocbaolong.website</a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong>SĐT:</strong>
+                      <span><a href="tel:0777663476">0777663476</a></span>
+                    </li>
+                  </ul>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="email">Email của bạn</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Tuổi:</strong> <span>20</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Bằng cấp:</strong> <span>Giỏi</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span
+                        ><a href="mailto:hnbaolong.4work@gmail.com"
+                          >hnbaolong.4work@gmail.com</a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Nơi sống:</strong>
+                      <span>Q.Bình Thạnh, TP.Hồ Chí Minh</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="subject">Tiêu đề</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Nội dung</label>
-                <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button id="contact-submit">Gửi đi</button></div>
-            </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Kỹ năng</h2>
           </div>
 
+          <div class="row skills-content">
+            <div
+              class="col-lg-12 d-flex flex-wrap justify-content-between mb-2"
+              data-aos="fade-up"
+            >
+              <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                  alt="react"
+                  width="120"
+                  height="120"
+                />
+              </a>
+
+              <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                  alt="nodejs"
+                  width="120"
+                  height="120"
+                />
+              </a>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="javascript"
+                  width="120"
+                  height="120"
+                />
+              </a>
+              <a
+                href="https://tailwindcss.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                  alt="tailwind"
+                  width="120"
+                  height="120"
+                />
+              </a>
+              <a
+                href="https://getbootstrap.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                  alt="bootstrap"
+                  width="120"
+                  height="120"
+                />
+              </a>
+              <a
+                href="https://www.w3.org/html/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  alt="html5"
+                  width="120"
+                  height="120"
+                />
+              </a>
+              <a
+                href="https://www.w3schools.com/css/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  alt="css3"
+                  width="120"
+                  height="120"
+                />
+              </a>
+              <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                  alt="mysql"
+                  width="120"
+                  height="120"
+                />
+              </a>
+            </div>
+          </div>
         </div>
+      </section>
 
-      </div>
-    </section><!-- End Contact Section -->
-  </main><!-- End #main -->
+      <section id="bangdiem" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Bảng điểm</h2>
+          </div>
 
-  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+          <div class="row">
+            <div class="col-lg-12" data-aos="fade-left">
+              <img src="./assets/img/bangdiem.png" alt="" width="100%" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Dự án</h2>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All (3)</li>
+                <li data-filter=".filter-web">Web (1)</li>
+                <li data-filter=".filter-app">App (2)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/projects/dghouse.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/projects/dghouse.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Pet service store - DG HOUSE"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="detail-dghouse.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+              <h4>DG HOUSE</h4>
+            </div>
+
+            <div class="col-lg-12 col-md-12 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/projects/theband.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/projects/theband.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="The band"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="detail-the-band.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+              <h4>The band</h4>
+            </div>
+
+            <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/projects/thubongstore.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/projects/thubongstore.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Gấu bông online"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="detail-gaubongonline.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+              <h4>Gấu bông online</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Liên hệ</h2>
+          </div>
+
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Nơi sống:</h4>
+                  <p>290 Nơ Trang Long, Q.Bình Thạnh, TP.Hồ Chí Minh</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>
+                    <a href="mailto:hnbaolong.4work@gmail.com"
+                      >hnbaolong.4work@gmail.com</a
+                    >
+                  </p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>SĐT:</h4>
+                  <p><a href="tel:0777663476">0777663476</a></p>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1959.4769558099713!2d106.69934258027169!3d10.8148390575184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716139001675!5m2!1sen!2sus"
+                  width="100%"
+                  height="290"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="#" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Tên của bạn</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="email">Email của bạn</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Tiêu đề</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Nội dung</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    id="message"
+                    rows="10"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button id="contact-submit">Gửi đi</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a> -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
